@@ -2,14 +2,17 @@
 name = "xkcd"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+author = "jer <alphastrata@gmail.com"
+description = """
+This app prints a random xkcd image into your terminal, that's right, an image in your terminal. Yes, it's as bad as you think.
+"""
+keywords = ["termimage", "xkcd"]
+publish = false
 
 [dependencies]
 anyhow = "1.0.66"
 reqwest = "0.11.12"
 serde_json = "1.0.87"
-termimage = "*"
 image = "0.24.4"
 viuer = "0.6.2"
 rand = "0.8.5"
